@@ -13,7 +13,8 @@
     "vscode": {
       "settings": {
         "remote.extensionKind": {
-          "arm.device-manager": ["ui"]
+          "arm.device-manager": ["ui"],
+          "arm.embedded-debug": ["ui"]
         }
       },
       "extensions": [
