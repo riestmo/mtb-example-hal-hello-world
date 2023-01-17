@@ -11,15 +11,11 @@
   "workspaceFolder": "/home/vscode/mtb-workspace/mtb-example-hal-hello-world",
   "customizations": {
     "vscode": {
-      "settings": {
-        "remote.extensionKind": {
-          "arm.device-manager": ["ui"],
-          "arm.embedded-debug": ["ui"]
-        }
-      },
       "extensions": [
         "arm.device-manager",
-        "arm.embedded-debug"
+        "arm.embedded-debug",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-themes"
       ]
     }
   },
