@@ -8,17 +8,14 @@
       "TARGET": "CY8CPROTO-062-4343W"
     }
   },
-  "workspaceFolder": "/home/vscode/mtb-workspace/mtb-example-hal-hello-world",
+  "workspaceFolder": "/home/vscode/mtb-workspace",
   "customizations": {
     "vscode": {
-      "settings": {
-        "remote.extensionKind": {
-          "arm.device-manager": ["ui"]
-        }
-      },
       "extensions": [
         "arm.device-manager",
-        "arm.embedded-debug"
+        "arm.embedded-debug",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-themes"
       ]
     }
   },
