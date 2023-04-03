@@ -16,7 +16,17 @@
         "arm.embedded-debug",
         "ms-vscode.cpptools",
         "ms-vscode.cpptools-themes"
-      ]
+      ],
+      "settings": {
+        "remote.extensionKind": {
+          "arm.device-manager": [
+            "ui"
+          ],
+          "arm.embedded-debug": [
+            "ui"
+          ]
+        }
+      }
     }
   },
   "forwardPorts": [
