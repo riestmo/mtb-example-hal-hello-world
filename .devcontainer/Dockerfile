@@ -17,5 +17,7 @@ WORKDIR /home/vscode/mtb-workspace/mtb-example-hal-hello-world
 
 COPY --chown=vscode:vscode . .
 
+ENV CY_TOOLS_PATHS /opt/ModusToolbox/tools_3.0
+
 ARG TARGET="CY8CPROTO-062-4343W"
 RUN /opt/ModusToolbox/tools_3.0/library-manager/library-manager-cli -p . --add-bsp-name ${TARGET}
